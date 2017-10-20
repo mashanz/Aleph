@@ -21,33 +21,36 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageLogin"
             android:layout_width="match_parent"
             android:layout_height="367dp"
             app:srcCompat="@drawable/kj" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Username"
+            android:inputType="text"
+            android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.08"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.08"
-            android:text="Button" />
+            android:onClick="onClickButtonLogin"
+            android:text="LOGIN" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

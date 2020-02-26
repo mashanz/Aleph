@@ -24,7 +24,7 @@
             android:id="@+id/imageLogin"
             android:layout_width="match_parent"
             android:layout_height="367dp"
-            app:srcCompat="@drawable/kj" />
+            app:srcCompat="@mipmap/ic_launcher" />
 
         <EditText
             android:id="@+id/editUser"

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aleph.iml" filepath="$PROJECT_DIR$/Aleph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Aleph-app.iml" filepath="$PROJECT_DIR$/app/Aleph-app.iml" group="Aleph/app" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-Aleph.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-Aleph.iml" group="Aleph" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

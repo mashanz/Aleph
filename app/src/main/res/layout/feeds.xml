@@ -18,7 +18,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="380dp"
-        app:srcCompat="@drawable/kj" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView2"
